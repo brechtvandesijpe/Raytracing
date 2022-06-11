@@ -127,7 +127,7 @@ void eventHandler() {
     }
 }
 
-int main(int argc, char **argv) {
+int main(int argv, char** args) {
 	SDL_Init(SDL_INIT_EVERYTHING);
     if (SDL_Init(SDL_INIT_EVERYTHING) < 0) std::cerr << "Unable to Init SDL: %s" << SDL_GetError() << std::endl;
     
